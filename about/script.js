@@ -1,0 +1,15 @@
+window.addEventListener("load",()=>{
+    document.querySelector("h1").classList.add("show");
+    setTimeout(()=>{
+        document.querySelector(".box").classList.add("show");
+    },300);
+    setTimeout(()=>{
+        document.querySelectorAll("p")[1].classList.add("show");
+    },600);
+    setTimeout(()=>{
+        document.querySelector(".img-top").classList.add("show");
+    },900);
+    setTimeout(()=>{
+        document.querySelector(".img-bottom").classList.add("show");
+    },1200);
+});
